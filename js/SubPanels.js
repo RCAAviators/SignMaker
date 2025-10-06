@@ -1,17 +1,25 @@
 class SubPanels {
     
     constructor({
-        controlText = "New Sign",
-        actionMessage = "",
         shields = [],
         width = 1,
         height = "2",
-		shieldDistance = 0.8
-        } = {}
+		shieldDistance = 0.8,
+		blockElements,
+		
+		controlText = "New Sign",
+        actionMessage = "",
+		} = {}
     ) {
         this.controlText = controlText;
         this.actionMessage = actionMessage;
         
+		if (blockElements) {
+			this.blockElements = blockElements;
+		} else {
+			this.blockElements = new Control();
+			this.blockElements.addElement(ControlTextElement,{},0,0);
+		}
         
         this.shields = shields;
         if ((parseInt(width) < 1) || (parseInt(width) == undefined)) {

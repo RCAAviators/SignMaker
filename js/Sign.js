@@ -218,11 +218,11 @@ Sign.prototype.guideArrows = [
 	"Sharp Right:E-2"
 ];
 Sign.prototype.exitguideArrows = [
-    "Down Arrow:EC-3/C-1",
-	"Left/Up Arrow:EB-6/B-4",
-	"alt. Left/Up Arrow:EA-6/A-4",
-	"Right/Up Arrow:EB-5/B-1",
-	"alt. Right/Up Arrow:EA-5/A-1"
+    "Down Arrow:EC-1/C-1",
+	"Left/Up Arrow:EB-4/B-4",
+	"alt. Left/Up Arrow:EA-4/A-4",
+	"Right/Up Arrow:EB-1/B-1",
+	"alt. Right/Up Arrow:EA-1/A-1"
 
 ];
 

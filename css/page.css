@@ -1,175 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
-	font-family: 'Arrows One';
-	src: url('../fonts/Misc/EOT/roadgeek_2005_arrows_1-webfont.eot');
-	src: url('../fonts/Misc/EOT/roadgeek_2005_arrows_1-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Misc/WOFF2/roadgeek_2005_arrows_1-webfont.woff2') format('woff2'),
-		 url('../fonts/Misc/WOFF/roadgeek_2005_arrows_1-webfont.woff') format('woff'),
-		 url('../fonts/Misc/TTF/roadgeek_2005_arrows_1-webfont.ttf') format('truetype'),
-		 url('../fonts/Misc/WEBFONT/roadgeek_2005_arrows_1-webfont.svg#roadgeek_2005_arrows_1regular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Series E';
+    src: url('../fonts/Roadgeek2014SeriesE.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesE.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-	font-family: 'Arrows Two';
-	src: url('../fonts/Misc/EOT/roadgeek_2005_arrows_2-webfont.eot');
-	src: url('../fonts/Misc/EOT/roadgeek_2005_arrows_2-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Misc/WOFF2/roadgeek_2005_arrows_2-webfont.woff2') format('woff2'),
-		 url('../fonts/Misc/WOFF/roadgeek_2005_arrows_2-webfont.woff') format('woff'),
-		 url('../fonts/Misc/TTF/roadgeek_2005_arrows_2-webfont.ttf') format('truetype'),
-		 url('../fonts/Misc/WEBFONT/roadgeek_2005_arrows_2-webfont.svg#roadgeek_2005_arrows_2regular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Series C';
+    src: url('../fonts/Roadgeek2014SeriesC.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesC.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-	font-family: 'Mittelschrift';
-	src: url('../fonts/Misc/EOT/roadgeek_2005_mittelschrift-webfont.eot');
-	src: url('../fonts/Misc/EOT/roadgeek_2005_mittelschrift-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Misc/WOFF2/roadgeek_2005_mittelschrift-webfont.woff2') format('woff2'),
-		 url('../fonts/Misc/WOFF/roadgeek_2005_mittelschrift-webfont.woff') format('woff'),
-		 url('../fonts/Misc/TTF/roadgeek_2005_mittelschrift-webfont.ttf') format('truetype'),
-		 url('../fonts/Misc/WEBFONT/roadgeek_2005_mittelschrift-webfont.svg#roadgeek_2005_mittelschriftRg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Series B';
+    src: url('../fonts/Roadgeek2014SeriesB.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesB.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-	font-family: 'Parks';
-	src: url('../fonts/Misc/EOT/roadgeek_2005_old_parks-webfont.eot');
-	src: url('../fonts/Misc/EOT/roadgeek_2005_old_parks-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Misc/WOFF2/roadgeek_2005_old_parks-webfont.woff2') format('woff2'),
-		 url('../fonts/Misc/WOFF/roadgeek_2005_old_parks-webfont.woff') format('woff'),
-		 url('../fonts/Misc/TTF/roadgeek_2005_old_parks-webfont.ttf') format('truetype'),
-		 url('../fonts/Misc/WEBFONT/roadgeek_2005_old_parks-webfont.svg#roadgeek_2005_old_parksRg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Series C';
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_c-webfont.eot');
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_c-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Roadgeek/WOFF2/roadgeek_2005_series_c-webfont.woff2') format('woff2'),
-		 url('../fonts/Roadgeek/WOFF/roadgeek_2005_series_c-webfont.woff') format('woff'),
-		 url('../fonts/Roadgeek/TTF/roadgeek_2005_series_c-webfont.ttf') format('truetype'),
-		 url('../fonts/Roadgeek/WEBFONT/roadgeek_2005_series_c-webfont.svg#roadgeek_2005_series_cregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Series D';
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_d-webfont.eot');
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_d-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Roadgeek/WOFF2/roadgeek_2005_series_d-webfont.woff2') format('woff2'),
-		 url('../fonts/Roadgeek/WOFF/roadgeek_2005_series_d-webfont.woff') format('woff'),
-		 url('../fonts/Roadgeek/TTF/roadgeek_2005_series_d-webfont.ttf') format('truetype'),
-		 url('../fonts/Roadgeek/WEBFONT/roadgeek_2005_series_d-webfont.svg#roadgeek_2005_series_dregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Series E';
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_e-webfont.eot');
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_e-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Roadgeek/WOFF2/roadgeek_2005_series_e-webfont.woff2') format('woff2'),
-		 url('../fonts/Roadgeek/WOFF/roadgeek_2005_series_e-webfont.woff') format('woff'),
-		 url('../fonts/Roadgeek/TTF/roadgeek_2005_series_e-webfont.ttf') format('truetype'),
-		 url('../fonts/Roadgeek/WEBFONT/roadgeek_2005_series_e-webfont.svg#roadgeek_2005_series_eregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Series EM';
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_em-webfont.eot');
-	src: url('../fonts/Roadgeek/EOT/roadgeek_2005_series_em-webfont.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Roadgeek/WOFF2/roadgeek_2005_series_em-webfont.woff2') format('woff2'),
-		 url('../fonts/Roadgeek/WOFF/roadgeek_2005_series_em-webfont.woff') format('woff'),
-		 url('../fonts/Roadgeek/TTF/roadgeek_2005_series_em-webfont.ttf') format('truetype'),
-		 url('../fonts/Roadgeek/WEBFONT/roadgeek_2005_series_em-webfont.svg#roadgeek_2005_series_emRg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Series D';
+    src: url('../fonts/Roadgeek2014SeriesD.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesD.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Series F';
-    src: url('../fonts/Roadgeek/EOT/Roadgeek2005SeriesF.eot');
-    src: url('../fonts/Roadgeek/EOT/Roadgeek2005SeriesF.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Roadgeek/WOFF2/Roadgeek2005SeriesF.woff2') format('woff2'),
-        url('../fonts/Roadgeek/WOFF/Roadgeek2005SeriesF.woff') format('woff'),
-        url('../fonts/Roadgeek/TTF/Roadgeek2005SeriesF.ttf') format('truetype'),
-        url('../fonts/Roadgeek/WEBFONT/Roadgeek2005SeriesF.svg#Roadgeek2005SeriesF') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-	font-family: 'Clearview 4W';
-	src: url('../fonts/Clearview/EOT/ClearviewHwy-Four-w.eot');
-	src: url('../fonts/Clearview/EOT/ClearviewHwy-Four-W#iefix') format('rembedded-opentype'),
-		 url('../fonts/Clearview/WOFF2/ClearviewHwy-Four-W.woff2') format('woff2'),
-		 url('../fonts/Clearview/WOFF/ClearviewHwy-Four-W.woff') format('woff'),
-		 url('../fonts/Clearview/TTF/ClearviewHwy4W.ttf') format('truetype'),
-		 url('../fonts/Clearview/WEBFONT/ClearviewHwy-Four-W_emRg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Clearview 5WR';
-	src: url('../fonts/Clearview/EOT/ClearviewHwy-Five-W-R.eot');
-	src: url('../fonts/Clearview/EOT/ClearviewHwy-Five-W-R.eot?#iefix') format('rembedded-opentype'),
-		 url('../fonts/Clearview/WOFF2/ClearviewHwy-Five-W-R.woff2') format('woff2'),
-		 url('../fonts/Clearview/WOFF/ClearviewHwy-Five-W-R.woff') format('woff'),
-		 url('../fonts/Clearview/TTF/ClearviewHwy5WR.ttf') format('truetype'),
-		 url('../fonts/Clearview/WEBFONT/ClearviewHwy-Five-W-R_emRg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-
-
-
-@font-face {
-    font-family: 'Highway Gothic Narrow';
-    src: url('../fonts/Misc/EOT/HighwayGothicNarrow.eot');
-    src: url('../fonts/Misc/EOT/HighwayGothicNarrow.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Misc/WOFF2/HighwayGothicNarrow.woff2') format('woff2'),
-        url('../fonts/Misc/WOFF/HighwayGothicNarrow.woff') format('woff'),
-        url('../fonts/Misc/TTF/HighwayGothicNarrow.ttf') format('truetype'),
-        url('../fonts/Misc/WEBFONT/HighwayGothicNarrow.svg#HighwayGothicNarrow') format('svg');
+    src: url('../fonts/Roadgeek2014SeriesF.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesF.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesF.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Highway Gothic Wide';
-    src: url('../fonts/Misc/EOT/HighwayGothicWide.eot');
-    src: url('../fonts/Misc/EOT/HighwayGothicWide.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Misc/WOFF2/HighwayGothicWide.woff2') format('woff2'),
-        url('../fonts/Misc/WOFF/HighwayGothicWide.woff') format('woff'),
-        url('../fonts/Misc/TTF/HighwayGothicWide.ttf') format('truetype'),
-        url('../fonts/Misc/WEBFONT/HighwayGothicWide.svg#HighwayGothicWide') format('svg');
+    font-family: 'Series EM';
+    src: url('../fonts/Roadgeek2014SeriesEM.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesEM.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesEM.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Highway Gothic';
-    src: url('../fonts/Misc/EOT/HighwayGothic.eot');
-    src: url('../fonts/Misc/EOT/HighwayGothic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Misc/WOFF2/HighwayGothic.woff2') format('woff2'),
-        url('../fonts/Misc/WOFF/HighwayGothic.woff') format('woff'),
-        url('../fonts/Misc/TTF/HighwayGothic.ttf') format('truetype'),
-        url('../fonts/Misc/WEBFONT/HighwayGothic.svg#HighwayGothic') format('svg');
+    font-family: 'Series EEM';
+    src: url('../fonts/Roadgeek2014SeriesEEM.woff2') format('woff2'),
+        url('../fonts/Roadgeek2014SeriesEEM.woff') format('woff'),
+        url('../fonts/Roadgeek2014SeriesEEM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 2B';
+    src: url('../fonts/ClearviewHwy-Two-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Two-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Two-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 3B';
+    src: url('../fonts/ClearviewHwy-Three-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Three-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Three-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 2W';
+    src: url('../fonts/ClearviewHwy-Two-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Two-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Two-W.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 4W';
+    src: url('../fonts/ClearviewHwy-Four-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Four-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Four-W.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -177,22 +113,103 @@
 
 @font-face {
     font-family: 'Clearview 3W';
-    src: url('../fonts/Clearview/EOT/ClearviewHwy-Three-W.eot');
-    src: url('../fonts/Clearview/EOT/ClearviewHwy-Three-W.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Clearview/WOFF2/ClearviewHwy-Three-W.woff2') format('woff2'),
-        url('./fonts/Clearview/WOFF/ClearviewHwy-Three-W.woff') format('woff'),
-        url('../fonts/Clearview/TTF/ClearviewHwy-Three-W.ttf') format('truetype'),
-        url('../fonts/Clearview/WEBFONT/ClearviewHwy-Three-W.svg#ClearviewHwy-Three-W') format('svg');
+    src: url('../fonts/ClearviewHwy-Three-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Three-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Three-W.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Clearview 4B';
+    src: url('../fonts/ClearviewHwy-Four-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Four-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Four-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Clearview 5B';
+    src: url('../fonts/ClearviewHwy-Five-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Five-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Five-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Clearview 5W';
+    src: url('../fonts/ClearviewHwy-Five-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Five-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Five-W.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Clearview 5WR';
+    src: url('../fonts/ClearviewHwy-Five-W-R.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Five-W-R.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Five-W-R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Clearview 6B';
+    src: url('../fonts/ClearviewHwy-Six-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Six-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Six-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Clearview 6W';
+    src: url('../fonts/ClearviewHwy-Six-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-Six-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-Six-W.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 1B';
+    src: url('../fonts/ClearviewHwy-One-B.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-One-B.woff') format('woff'),
+        url('../fonts/ClearviewHwy-One-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clearview 1W';
+    src: url('../fonts/ClearviewHwy-One-W.woff2') format('woff2'),
+        url('../fonts/ClearviewHwy-One-W.woff') format('woff'),
+        url('../fonts/ClearviewHwy-One-W.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Icons';
+    src: url('../fonts/Roadgeek2005Icons.woff2') format('woff2'),
+        url('../fonts/Roadgeek2005Icons.woff') format('woff'),
+        url('../fonts/Roadgeek2005Icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
 	--green: rgb(0, 95, 77);
@@ -202,7 +219,25 @@
 	--countyYellow: rgb(247,209,23);
 	--white: rgb(255, 255, 255);
 	--black: rgb(0, 0, 0);
+	--purple: rgb(102, 0, 153);
 	--orange: rgb(255, 89, 4);
+	--red: rgb(255, 0, 0);
+}
+
+:root[data-theme=light] {
+	--backgroundColor: #90b5ff;
+	--hotbarColor: rgb(210, 225, 255);
+	--textColor: rgb(0,0,0);
+	--selectedColor: rgb(255,255,255);
+	--hoverColor: rgb(255,255,255, .5);
+}
+
+:root[data-theme=dark] {
+	--backgroundColor: #0f1a37;
+	--hotbarColor: #1d3678;
+	--textColor: #f7f9fb;
+	--selectedColor: rgb(255,255,255,.25);
+	--hoverColor: #18274e;
 }
 
 * {
@@ -217,23 +252,49 @@ html, body {
 
 	margin: 0;
 	padding: 0;
+
+	font-family: "Inter";
+	font-size: 20px;
+	color: var(--textColor);
 }
 
 body {
-	background-color: rgb(144,181,255);
-	font-family: "Series D";
-	font-size: 20px;
+	background-color: var(--backgroundColor);
+	transition: .15s ease-in-out background-color;
 }
 
+main, footer {
+	z-index: 0;
+}
+
+main {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
 footer {
 	border-top: solid rgba(255, 255, 255, 0.25) 0.25rem;
-
-	text-align: center;
-
-	margin-top: 1rem;
-	padding-top: 0.5rem;
+	padding: .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+footer div:nth-child(1) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+	background-color: rgba(255,255,255,0.25);
+	width: max-content;
+	padding: .5rem 1rem;
+}
+
 footer a {
 	background-color: rgba(255, 255, 255, 0.25);
 	border-radius: 0.1rem;
@@ -245,35 +306,49 @@ footer a {
 	margin: 0.25rem;
 	padding: 0 0.5rem 0;
 
-	transition: background-color 0.5s;
+	transition: 0.2s;
 }
+
+footer h3 {
+	font-family: "Clearview 3W";
+}
+
+footer p {
+	font-size: 16px;
+}
+
 footer a:hover {
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.5);
+	scale: 1.1;
 }
 
-h1, h2 {
-	text-align: center;
-	margin-top: 0.25em;
-	margin-bottom: 0.75em;
-}
-
-p {
+h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 }
 
-#signMaker {
-	display: inline-block;
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Series D";
+	font-weight: 400;
 }
+
 #oSNum {
 	display: none;
 }
-.left {
-	text-align: left;
+
+.warning {
+	background-color: yellow;
+	padding: 6px;
+	font-weight: bold;
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 16px;
+	margin: 16px;
 }
-.center {
-	text-align: center;
+
+.material-symbols-outlined {
+	user-select: none;
 }
-.right {
-	text-align: right;
+
+input[type="checkbox"] {
+	width: auto;
 }
